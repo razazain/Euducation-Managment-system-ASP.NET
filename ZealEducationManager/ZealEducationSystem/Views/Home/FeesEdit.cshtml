@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Fees Edit";
+}
+@model FeesDetail
+
+<div class="content-body">
+
+    <div class="row page-titles mx-0">
+        <div class="col p-md-0">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Dashboard</a></li>
+                <li class="breadcrumb-item active"><a asp-controller="Home" asp-action="Show_Fee">Show Fees Detail</a></li>
+            </ol>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <h1>Edit Record</h1>
+
+                @using (Html.BeginForm("FeesUpdate", "Home", FormMethod.Post))
+                {
+                    @Html.HiddenFor(m => m.FeesId) <!-- Include a hidden field for the ID of the record being updated -->
+
+                    <div>
+                        <label for="CollectedAmount">Collected Amount:</label>
+                        @Html.TextBoxFor(m => m.CollectedAmount)
+                        @Html.ValidationMessageFor(m => m.CollectedAmount)
+                    </div>
+
+                    <div>
+                        <label for="Month">Month:</label>
+                        @Html.DropDownListFor(m => m.FeeMonth, new SelectList(new[]
+                        {
+                            new SelectListItem { Text = "Select a Month", Value = "" },
+                            new SelectListItem { Text = "January", Value = "January" },
+                            new SelectListItem { Text = "February", Value = "February" },
+                            new SelectListItem { Text = "March", Value = "March" },
+                            new SelectListItem { Text = "April", Value = "April" },
+                            new SelectListItem { Text = "May", Value = "May" },
+                            new SelectListItem { Text = "June", Value = "June" },
+                            new SelectListItem { Text = "July", Value = "July" },
+                            new SelectListItem { Text = "August", Value = "August" },
+                            new SelectListItem { Text = "September", Value = "September" },
+                            new SelectListItem { Text = "October", Value = "October" },
+                            new SelectListItem { Text = "November", Value = "November" },
+                            new SelectListItem { Text = "December", Value = "December" }
+
+                        }, "Value", "Text"), new {  @required = "required" })
+                                
+                        @Html.ValidationMessageFor(m => m.FeeMonth)
+                   </div>
+
+
+                    <div>
+                        <label for="CandidateId">Student Name:</label>
+                        @Html.DropDownListFor(m => m.CandidateId, new SelectList(ViewBag.CandidateId, "Value", "Text"),
+                    "Select a Candidate", new { @required = "required" })
+                        @Html.ValidationMessageFor(m => m.CandidateId)
+
+                    </div>
+
+                    <input type="submit" value="Update" />
+                }
+            </div>
+        </div>
+    </div>
+
+</div>

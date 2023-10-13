@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Exam Mark Edit";
+}
+@model ExamMark
+
+<div class="content-body">
+
+    <div class="row page-titles mx-0">
+        <div class="col p-md-0">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Facultypanel">Dashboard</a></li>
+                <li class="breadcrumb-item active"><a asp-controller="Facultypanel" asp-action="Show_ExamMark">show Exam Mark</a></li>
+            </ol>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <h1>Edit Record</h1>
+
+                @using (Html.BeginForm("ExamMarkUpdate", "Facultypanel", FormMethod.Post))
+                {
+                    @Html.HiddenFor(m => m.ExammarksId) <!-- Include a hidden field for the ID of the record being updated -->
+
+                    <div>
+                        <label for="TotalMarks">Total Marks:</label>
+                        @Html.TextBoxFor(m => m.TotalMarks, new { @required = "required" })
+                        @Html.ValidationMessageFor(m => m.TotalMarks)
+                    </div>
+
+                    <div>
+                        <label for="ObtainedMarks">Obatined Marks:</label>
+                        @Html.TextBoxFor(m => m.ObtainedMarks, new { @required = "required" })
+                        @Html.ValidationMessageFor(m => m.ObtainedMarks)
+                    </div>
+
+                    <div>
+                        <label for="CandidateId">Student Name:</label>
+                        @Html.DropDownListFor(m => m.CandidateId, new SelectList(ViewBag.CandidateId, "Value", "Text"),
+                    "Select a Candidate", new { @required = "required" })
+                        @Html.ValidationMessageFor(m => m.CandidateId)
+
+                    </div>
+
+
+                    <div>
+                        <label for="CandidateId">Exam Name:</label>
+                        @Html.DropDownListFor(m => m.ExamId, new SelectList(ViewBag.ExamId, "Value", "Text"),
+                    "Select a Exam", new { @required = "required" })
+                        @Html.ValidationMessageFor(m => m.ExamId)
+
+                    </div>
+
+
+                    <input type="submit" value="Update" />
+                }
+            </div>
+        </div>
+    </div>
+
+</div>

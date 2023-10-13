@@ -1,0 +1,101 @@
+﻿@{
+    ViewData["Title"] = "Show Student";
+}
+
+
+
+
+ @model IEnumerable<Candidate>
+<div class="content-body">
+
+    <div class="row page-titles mx-0">
+        <div class="col p-md-0">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Dashboard</a></li>
+                <li class="breadcrumb-item active"><a href="javascript:void(0)">Home</a></li>
+            </ol>
+        </div>
+    </div>
+    <!-- row -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Data Table</h4>
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered zero-configuration">
+                                <thead>
+                                    <tr>
+                                        <th>Candidate ID</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Candidate Email</th>
+                                        <th>Course Name</th>
+                                        <th>Batch Code</th>
+                                        <th>Candidate Password</th>
+                                        <th>Candidate Images</th>
+                                        <th>Delete</th>
+                                        <th>Edit</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    @foreach(var temp in Model)
+                                    {
+                                        
+                                    
+                                    <tr>
+                                            <td>@temp.CandidateId</td>
+                                            <td>@temp.FirstName</td>
+                                            <td>@temp.LastName</td>
+                                            <td>@temp.CandidateEmail</td>
+                                            <td>@temp.Course?.CourseName</td>
+
+                                            <td>@temp.Batch?.BatchCode</td>
+                                            <td>@temp.CandidatePassword</td>
+
+                                            <td><img src="~/@temp.CandidateImage" height="50" width="50" alt="Student Image" /></td>
+                                            <td>
+                                                <button class="btn btn-primary">
+                                                    <a class="text-light"  asp-controller="Home" asp-action="CandidateDelete" asp-route-id="@temp.CandidateId">Delete</a>
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <form method="post" asp-controller="Home" asp-action="CandidateEdit" asp-route-id="@temp.CandidateId">
+                                                    <button type="submit" class="btn btn-primary text-light ">Update</button>
+                                                </form>
+                                            </td>
+
+
+                                        </tr>
+                                    }
+
+
+
+                                   
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th>Candidate ID</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Candidate Email</th>
+                                        <th>Course Name</th>
+                                        <th>Batch Code</th>
+                                        <th>Candidate Password</th>
+                                        <th>Candidate Images</th>
+                                        <th>Delete</th>
+                                        <th>Edit</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #/ container -->
+</div>

@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Faculty Edit";
+}
+@model Candidate
+
+<div class="content-body">
+
+    <div class="row page-titles mx-0">
+        <div class="col p-md-0">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Dashboard</a></li>
+                <li class="breadcrumb-item active"><a asp-controller="Home" asp-action="Show_Student">Show Candidate</a></li>
+            </ol>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <h1>Edit Record</h1>
+
+                @using (Html.BeginForm("CandidateUpdate", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.HiddenFor(m => m.CandidateId) <!-- Include a hidden field for the ID of the record being updated -->
+
+                    <div>
+                        <label for="FirstName">First Name:</label>
+                        @Html.TextBoxFor(m => m.FirstName, new { @required = "required" })
+                        @Html.ValidationMessageFor(m => m.FirstName)
+                    </div>
+
+                    <div>
+                        <label for="LastName">Last Name:</label>
+                        @Html.TextBoxFor(m => m.LastName, new { @required = "required" })
+                        @Html.ValidationMessageFor(m => m.LastName)
+                    </div>
+
+                    <div>
+                        <label for="CandidateEmail">Email:</label>
+                        @Html.TextBoxFor(m => m.CandidateEmail, new { @required = "required" })
+                        @Html.ValidationMessageFor(m => m.CandidateEmail)
+                    </div>
+
+                    <div>
+                        <label for="CandidatePassword">Password:</label>
+                        @Html.TextBoxFor(m => m.CandidatePassword, new { @required = "required" })
+                        @Html.ValidationMessageFor(m => m.CandidatePassword)
+                    </div>
+
+
+                    <div>
+                        <label for="Course">Course:</label>
+                        @Html.DropDownListFor(m => m.CourseId, new SelectList(ViewBag.CourseId, "Value", "Text"), 
+                        "Select a Course", new { @required = "required" })
+                        @Html.ValidationMessageFor(m => m.CourseId)
+
+                    </div>
+
+
+                    <div>
+                        <label for="Batch">Batch:</label>
+                        @Html.DropDownListFor(m => m.BatchId, new SelectList(ViewBag.BatchId, "Value", "Text"),"Select a Batch", new { required = "required" })
+                        @Html.ValidationMessageFor(m => m.BatchId)
+                    </div>
+
+
+                    <div>
+                        @Html.LabelFor(m => m.CandidateImage)
+                        <img src="~/@Model.CandidateImage" height="50" width="50" alt="Student Image" />
+                        <input type="hidden" name="CandidateImage" value="@Model.CandidateImage" />
+                    </div>
+
+                   
+                
+                    <input type="submit" value="Update" />
+                }
+            </div>
+        </div>
+    </div>
+
+</div>
+

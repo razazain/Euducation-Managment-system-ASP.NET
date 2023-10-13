@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewData["Title"] = "Profile";
+}
+@model IEnumerable<SignupDetail>
+<div class="content-body">
+
+    <div class="row page-titles mx-0">
+        <div class="col p-md-0">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Dashboard</a></li>
+                <li class="breadcrumb-item active"><a asp-controller="Home" asp-action="Profile">Profile</a></li>
+            </ol>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="justify-content-center">
+
+            <h1 class="text-center">PROFILE</h1>
+
+            <div>
+                <h4>User Email</h4>
+                <b>@ViewBag.Email</b>
+            </div>
+            <br />
+            <hr />
+            <div>
+                <h4>User Password</h4>
+                <b>@ViewBag.Pass</b>
+            </div>
+            <br />
+            <hr />
+            <div>
+                <h4>User Role</h4>
+                <b>@ViewBag.Role</b>
+            </div>
+
+            <br />
+            <br />
+            <br />
+            <hr />
+            <div>
+                <form method="post" asp-controller="Home" asp-action="ProfileEdit" asp-route-id="@ViewBag.Id">
+                    <button type="submit" class="btn btn-primary">Update</button>
+                </form>
+           
+            </div>
+
+
+
+        </div>
+    </div>
+
+    </div>

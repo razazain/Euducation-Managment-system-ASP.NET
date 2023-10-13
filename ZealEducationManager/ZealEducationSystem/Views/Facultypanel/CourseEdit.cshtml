@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Course Edit";
+}
+@model Course
+
+<div class="content-body">
+
+    <div class="row page-titles mx-0">
+        <div class="col p-md-0">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Facultypanel">Dashboard</a></li>
+                <li class="breadcrumb-item active"><a asp-controller="Facultypanel" asp-action="Show_Course">Show Course</a></li>
+            </ol>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <h1>Edit Record</h1>
+
+                @using (Html.BeginForm("CourseUpdate", "Facultypanel", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.HiddenFor(m => m.CourseId) <!-- Include a hidden field for the ID of the record being updated -->
+
+                    <div>
+                        <label for="CourseCode">Course Code:</label>
+                        @Html.TextBoxFor(m => m.CourseCode)
+                        @Html.ValidationMessageFor(m => m.CourseCode)
+                    </div>
+
+                    <div>
+                        <label for="CourseName">Course Name:</label>
+                        @Html.TextBoxFor(m => m.CourseName)
+                        @Html.ValidationMessageFor(m => m.CourseName)
+                    </div>
+
+                    <div>
+                        <label for="CourseFees">Course Fees:</label>
+                        @Html.TextBoxFor(m => m.CourseFees)
+                        @Html.ValidationMessageFor(m => m.CourseFees)
+                    </div>
+
+                    <div>
+                        <label for="CourseLength">Course Length:</label>
+                        @Html.TextBoxFor(m => m.CourseLength)
+                        @Html.ValidationMessageFor(m => m.CourseLength)
+                    </div>
+                    <div>
+                        <label for="CourseDescription">Course Description:</label>
+                        @Html.TextBoxFor(m => m.CourseDescription)
+                        @Html.ValidationMessageFor(m => m.CourseDescription)
+                    </div>
+
+                    <div>
+                        @Html.LabelFor(m => m.CourseThumbnail)
+                        <img src="~/@Model.CourseThumbnail" height="50" width="50" alt="Course Thumbnail" />
+                        <input type="hidden" name="coursethumbnail" value="@Model.CourseThumbnail" />
+                    </div>
+
+
+
+                    <input type="submit" value="Update" />
+                }
+            </div>
+        </div>
+    </div>
+
+</div>
+

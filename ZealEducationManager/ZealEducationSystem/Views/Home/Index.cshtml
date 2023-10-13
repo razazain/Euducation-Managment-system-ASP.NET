@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model IEnumerable<Enquiry>;
+<div class="content-body">
+
+    <div class="container-fluid mt-3">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="active-member">
+                            <div class="table-responsive">
+
+                                <div><h5>ENQUIRY</h5> <b>Website Visitor`S Enquiry</b></div> <hr />
+
+                                <table class="table table-xs mb-0">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>FirstName</th>
+                                            <th>LastName</th>
+                                            <th>Email</th>
+                                            <th>Message</th>
+                                            <th>Delete</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            @foreach(var enq in Model)
+                                            {
+                                                
+                                                <tr>
+                                                    <td>@enq.EnqId</td>
+                                                <td>@enq.FirstName</td>
+                                                <td>@enq.LastName</td>
+                                                <td>@enq.EnqEmail</td>
+                                                <td>@enq.EnqMessage</td>
+                                                <td>
+                                                    <button class="btn btn-primary">
+                                                        <a class="text-light" asp-controller="Home" asp-action="EnqDelete" asp-route-id="@enq.EnqId">Delete</a>
+                                                    </button>
+                                                </td>
+                                                </tr>
+                                            
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #/ container -->
+</div>

@@ -1,0 +1,118 @@
+﻿@{
+    ViewData["Title"] = "Add Student";
+}
+
+ @model  ZealEducationSystem.Models.Candidate 
+
+
+<div class="content-body">
+
+    <div class="row page-titles mx-0">
+        <div class="col p-md-0">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Dashboard</a></li>
+                <li class="breadcrumb-item active"><a asp-controller="Home" asp-action="Add_Student">Add Student</a></li>
+            </ol>
+        </div>
+    </div>
+    <!-- row -->
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <h1>ADD STUDENT</h1>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form-validation">
+                            <form class="form-valide" method="post" enctype="multipart/form-data">
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-username">
+                                        First Name <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" required class="form-control" id="val-username" asp-for="FirstName" placeholder="Enter First Name">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-email">
+                                        Last Name <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control" required id="val-email" asp-for="LastName" placeholder="Enter Last Name">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-password">
+                                        Email <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="email" class="form-control" required  id="val-password" asp-for="CandidateEmail" placeholder="Enter Email">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-confirm-password">
+                                        Password <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="password" class="form-control" required id="val-confirm-password" asp-for="CandidatePassword" placeholder="Create Password">
+                                        <span>Keep it secrete....</span>
+                                    </div>
+                                </div>
+                          
+
+                                <div class="form-group row">
+                                        <label class="col-lg-4 col-form-label" for="val-skill">
+                                             Course <span class="text-danger">*</span>
+                                        </label>
+                                    <div class="col-lg-6">
+
+                                        <select id="CourseId" name="CourseId" asp-for="CourseId" class="form-control" required>
+                                          <option value="" disabled selected>Select a Course</option>
+                                             @foreach (var course in ViewBag.CourseId)
+                                             {
+                                                <option value="@course.Value">@course.Text</option>
+                                             }
+                                        </select>
+                                     </div>
+                                </div>
+                                
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-skill">
+                                        Batch <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+
+                                        <select id="BatchId" name="BatchId" asp-for="BatchId" class="form-control" required>
+                                            <option value="" disabled selected>Select a Batch</option>
+                                            @foreach (var course in ViewBag.BatchId)
+                                            {
+                                                <option value="@course.Value">@course.Text</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                              
+
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-phoneus">
+                                        Image <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="file" required class="form-control" id="val-phoneus" name="candidateimage" placeholder="inset image........">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-lg-8 ml-auto">
+                                        <input type="submit" class="btn btn-primary" value="Submit">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #/ container -->
+</div>

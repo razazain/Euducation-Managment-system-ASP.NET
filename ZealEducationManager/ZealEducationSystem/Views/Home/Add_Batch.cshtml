@@ -1,0 +1,123 @@
+﻿@{
+    ViewData["Title"] = "Add Batch";
+}
+@model ZealEducationSystem.Models.Batchess
+<div class="content-body">
+
+    <div class="row page-titles mx-0">
+        <div class="col p-md-0">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Dashboard</a></li>
+                <li class="breadcrumb-item active"><a asp-controller="Home" asp-action="Add_Batch">Add Batch</a></li>
+            </ol>
+        </div>
+    </div>
+    <!-- row -->
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <h1>ADD BATCH</h1>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form-validation">
+                            <form class="form-valide" method="post">
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-username">
+                                        Batch Code <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" required class="form-control" id="val-username" asp-for="BatchCode" placeholder="Create a Batch Code..">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-skill">
+                                       TimeSlot <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+
+                                        <select asp-for="BatchTime" class="form-control" required>
+                                            <option value="" disabled selected>Select a Time Slot</option>
+                                            <option value="9:00AM to 11:00AM">9:00AM to 11:00AM</option>
+                                            <option value="11:00AM to 01:00PM">11:00AM to 01:00PM</option>
+                                            <option value="03:00PM to 05:00PM">03:00PM to 05:00PM</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-skill">
+                                        Batch Days <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+
+                                        <select asp-for="BatchDays" class="form-control" required>
+                                            <option value="" disabled selected>Select Batch Day</option>
+                                            <option value="Monday, Wednessday, Friday">Monday, Wednessday, Friday</option>
+                                            <option value="Tuesday, Thursday, Saturday">Tuesday, Thursday, Saturday</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-confirm-password">
+                                        Batch Start Date<span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="date" required class="form-control" id="val-confirm-password" asp-for="BatchStartDate" placeholder="Batch Start Date">
+                                    </div>
+                                </div>
+                                 <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-confirm-password">
+                                        Batch Duration<span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input type="text" required class="form-control" id="val-confirm-password" asp-for="BatchDuration" placeholder="Batch Duration">
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-skill">
+                                        Course <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+
+                                        <select id="CourseId" name="CourseId" asp-for="CourseId" class="form-control" required>
+                                            <option value="" disabled selected>Select a Course</option>
+                                            @foreach (var course in ViewBag.CourseId)
+                                            {
+                                                <option value="@course.Value">@course.Text</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-skill">
+                                        Faculty <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+
+                                        <select id="FacultyId" name="FacultyId" asp-for="FacultyId" class="form-control" required>
+                                            <option value="" disabled selected>Select Faculty</option>
+                                            @foreach (var faculty in ViewBag.FacultyId)
+                                            {
+                                                <option value="@faculty.Value">@faculty.Text</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-lg-8 ml-auto">
+                                        <input type="submit" class="btn btn-primary" vlaue="Submit"/>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #/ container -->
+</div>

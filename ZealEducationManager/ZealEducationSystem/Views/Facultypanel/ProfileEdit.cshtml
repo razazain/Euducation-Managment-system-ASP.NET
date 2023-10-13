@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Profile Edit";
+}
+@model SignupDetail
+
+<div class="content-body">
+
+    <div class="row page-titles mx-0">
+        <div class="col p-md-0">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Dashboard</a></li>
+                <li class="breadcrumb-item active"><a asp-controller="Home" asp-action="Profile">Profile</a></li>
+            </ol>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <h1>Edit Record</h1>
+
+                @using (Html.BeginForm("ProfileUpdate", "Home", FormMethod.Post))
+                {
+                    @Html.HiddenFor(m => m.UserId) <!-- Include a hidden field for the ID of the record being updated -->
+
+                    <div>
+                        <label for="UserEmail">User Email:</label>
+                        @Html.TextBoxFor(m => m.UserEmail)
+                        @Html.ValidationMessageFor(m => m.UserEmail)
+                    </div>
+
+                    <div>
+                        <label for="UserPassword">User Password:</label>
+                        @Html.TextBoxFor(m => m.UserPassword)
+                        @Html.ValidationMessageFor(m => m.UserPassword)
+                    </div>
+
+                    <div>
+                        <label for="UserRole">User Role:</label>
+                        @Html.TextBoxFor(m => m.UserRole, new { @readonly = "readonly" })
+
+                        @Html.ValidationMessageFor(m => m.UserRole)
+                    </div>
+                    <input type="submit" value="Update" />
+                }
+            </div>
+        </div>
+    </div>
+
+</div>

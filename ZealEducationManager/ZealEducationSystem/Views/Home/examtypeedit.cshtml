@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Exam Type Edit";
+}
+@model ExamType
+
+<div class="content-body">
+
+    <div class="row page-titles mx-0">
+        <div class="col p-md-0">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Dashboard</a></li>
+                <li class="breadcrumb-item active"><a asp-controller="Home" asp-action="Show_Examtype">show Exam Type</a></li>
+            </ol>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <h1>Edit Record</h1>
+
+                @using (Html.BeginForm("ExamTypeUpdate", "Home", FormMethod.Post))
+                {
+                    @Html.HiddenFor(m => m.ExamtypeId) <!-- Include a hidden field for the ID of the record being updated -->
+
+                    <div>
+                        <label for="Exam Type">Exam Tyoe:</label>
+                        @Html.TextBoxFor(m => m.ExamType1, new { @required = "required" })
+                        @Html.ValidationMessageFor(m => m.ExamType1)
+                    </div>
+
+                   
+
+                    <input type="submit" value="Update" />
+                }
+            </div>
+        </div>
+    </div>
+
+</div>
+

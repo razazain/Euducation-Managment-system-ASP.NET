@@ -1,0 +1,76 @@
+﻿@model IEnumerable<ExamMark>;
+<div class="content-body">
+
+    <div class="row page-titles mx-0">
+        <div class="col p-md-0">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Dashboard</a></li>
+                <li class="breadcrumb-item active"><a href="javascript:void(0)">Home</a></li>
+            </ol>
+        </div>
+    </div>
+    <!-- row -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Data Table</h4>
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered zero-configuration">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Total Marks</th>
+                                        <th>Obatined Marks</th>
+                                        <th>Student Name</th>
+                                        <th>Exam</th>
+                                        <th>Delete</th>
+                                        <th>Edit</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var temp in Model)
+                                    {
+                                        <tr>
+                                            <td>@temp.ExammarksId</td>
+                                            <td>@temp.TotalMarks</td>
+                                            <td>@temp.ObtainedMarks</td>
+                                            <td>@temp.Candidate?.FirstName</td>
+                                            <td>@temp.Exam?.ExaxmName</td>
+                                            <td>
+                                                <button class="btn btn-primary">
+                                                    <a class="text-light" asp-controller="Home" asp-action="ExamMarkDelete" asp-route-id="@temp.ExammarksId">Delete</a>
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <form method="post" asp-controller="Home" asp-action="ExamMarkEdit" asp-route-id="@temp.ExammarksId">
+                                                    <button type="submit" class="btn btn-primary text-light ">Update</button>
+                                                </form>
+                                            </td>
+                                        </tr>
+                                    }
+
+
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Total Marks</th>
+                                        <th>Obatined Marks</th>
+                                        <th>Student Name</th>
+                                        <th>Exam</th>
+                                        <th>Delete</th>
+                                        <th>Edit</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #/ container -->
+</div>

@@ -1,0 +1,56 @@
+﻿<div class="header">
+    <div class="header-content clearfix">
+
+      
+        <div class="header-left">
+            <div class="input-group icons">
+            
+                <div class="input-group-prepend">
+                    <label>Admin Email: </label>
+                    <h5> @ViewBag.Email </h5>
+                </div>
+
+            </div>
+        </div>
+        <div class="header-right">
+            <ul class="clearfix">
+
+
+
+                <li class ="icons">
+                    <div class=" c-pointer position-relative">
+                        <a class="has-arrow" asp-controller="Home" asp-action="Signup">Signup</a>
+                    </div>
+                </li>
+
+
+
+
+                <li class="icons dropdown">
+                    <div class="user-img c-pointer position-relative" data-toggle="dropdown">
+                        <span class="activity active"></span>
+                        <img src="~/images/user/1.png" height="40" width="40" alt="">
+                    </div>
+                    <div class="drop-down dropdown-profile animated fadeIn dropdown-menu">
+                        <div class="dropdown-content-body">
+                            <ul>
+                                <li>
+                                    <a asp-controller="Home" asp-action="Profile">
+                                        <i class="icon-user"></i>
+                                        <span>Profile</span>
+                                    </a>
+                                </li>
+
+                               
+                                
+                                <li>
+                                    <a asp-controller="Home" asp-action="Logout"><i class="icon-key"></i> <span>Logout</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

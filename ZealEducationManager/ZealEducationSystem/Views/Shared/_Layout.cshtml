@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Zeal_Educstion_System</title>
+
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="~/images/favicon.png">
+    <!-- Pignose Calender -->
+    <link href="~/plugins/pg-calendar/css/pignose.calendar.min.css" rel="stylesheet">
+    <!-- Chartist -->
+    <link rel="stylesheet" href="~/plugins/chartist/css/chartist.min.css">
+    <link rel="stylesheet" href="~/plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css">
+    <link href="~/plugins/tables/css/datatable/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+    <link href="~/css/style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/User/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+@*     <link href="~/User/css/style.css" rel="stylesheet">
+ *@</head>
+<body>
+    <header>
+      
+      
+        @{
+            
+
+            if (ViewBag.Role == "admin")
+            {
+                @Html.Partial("_Navheader")
+                ;
+                @Html.Partial("_Header")
+                ;
+                @Html.Partial("_Sidebar")
+                ;
+
+            }
+            else if (ViewBag.Role == "faculty")
+            {
+                @Html.Partial("_Navheader")
+                ;
+                @Html.Partial("_FacultyHeader")
+                ;
+                @Html.Partial("_FacultySidebar")
+                ;
+            }
+            else if(ViewBag.Role == "user")
+            {
+                @Html.Partial("_UserHeader");
+            }
+
+        }
+
+
+       
+      
+      
+      
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+
+    @{
+        if (ViewBag.Role == "admin")
+        {
+            <div class="footer">
+                <div class="copyright">
+                    <p>
+                        Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Quixlab</a>
+                        2018
+                    </p>
+                </div>
+            </div>
+
+        }
+        else if (ViewBag.Role == "faculty")
+        {
+            <div class="footer">
+                <div class="copyright">
+                    <p>
+                        Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Quixlab</a>
+                        2018
+                    </p>
+                </div>
+            </div>
+        }
+        else if (ViewBag.Role == "user")
+        {
+           @Html.Partial("_userfooter");
+        }
+    }
+
+
+
+
+
+
+    
+
+    <script src="~/plugins/common/common.min.js"></script>
+    <script src="~/js/custom.min.js"></script>
+    <script src="~/js/settings.js"></script>
+    <script src="~/js/gleek.js"></script>
+    <script src="~/js/styleSwitcher.js"></script>
+
+    <!-- Chartjs -->
+    <script src="~/plugins/chart.js/Chart.bundle.min.js"></script>
+    <!-- Circle progress -->
+    <script src="~/plugins/circle-progress/circle-progress.min.js"></script>
+    <!-- Datamap -->
+    <script src="~/plugins/d3v3/index.js"></script>
+    <script src="~/plugins/topojson/topojson.min.js"></script>
+    <script src="~/plugins/datamaps/datamaps.world.min.js"></script>
+    <!-- Morrisjs -->
+    <script src="~/plugins/raphael/raphael.min.js"></script>
+    <script src="~/plugins/morris/morris.min.js"></script>
+    <!-- Pignose Calender -->
+    <script src="~/plugins/moment/moment.min.js"></script>
+    <script src="~/plugins/pg-calendar/js/pignose.calendar.min.js"></script>
+    <!-- ChartistJS -->
+    <script src="~/plugins/chartist/js/chartist.min.js"></script>
+    <script src="~/plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script>
+
+
+
+    @* <script src="./js/dashboard/dashboard-1.js"></script>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false) *@
+
+  @* @*   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="~/User/lib/easing/easing.min.js"></script>
+@*     <script src="~/User/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/User/lib/counterup/counterup.min.js"></script>
+    <script src="~/User/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="~/User/js/main.js"></script>
+ *@
+</body>
+</html>

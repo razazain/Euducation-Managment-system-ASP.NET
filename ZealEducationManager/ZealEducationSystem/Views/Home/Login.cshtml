@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Login"; 
+}
+@model ZealEducationSystem.Models.SignupDetail
+<div class="content-body">
+
+
+
+    <h1 class="text-center">
+        Dasboard Login
+    </h1>
+    <form method="post">
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+            <input asp-for="UserEmail" type="email" required class="form-control" />
+            <label class="form-label" for="form2Example1">Email address</label>
+        </div>
+
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+            <input type="password" asp-for="UserPassword" required class="form-control" />
+            <label class="form-label" for="form2Example2">Password</label>
+        </div>
+
+        <div class="form-outline mb-4">
+            <label class="form-label" for="form2Example2">Role</label>
+
+            <select class="form-control" asp-for="UserRole" required>
+                <option value="admin">Admin</option>
+                <option value="faculty">Faculty</option>
+            </select>
+
+        </div>
+
+
+
+
+
+
+        <!-- Submit button -->
+        <input type="submit" value="SIGN IN" class="btn btn-primary btn-block mb-4">
+
+
+    </form>
+
+</div>
+
+
+
+
+
+
+
+

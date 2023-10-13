@@ -1,0 +1,117 @@
+﻿@{
+    ViewData["Title"] = "Add Exam";
+}
+@model ZealEducationSystem.Models.Exam
+<div class="content-body">
+
+    <div class="row page-titles mx-0">
+        <div class="col p-md-0">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Dashboard</a></li>
+                <li class="breadcrumb-item active"><a asp-controller="Home" asp-action="Add_Exam">Add Exam</a></li>
+            </ol>
+        </div>
+    </div>
+    <!-- row -->
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <h1>ADD Exam</h1>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form-validation">
+                            <form class="form-valide" method="post">
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-username">
+                                        Exam Date <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input asp-for="ExamDate" required type="date" class="form-control"  placeholder="Select Exam Date">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-username">
+                                        Exam time <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input asp-for="ExamTime" type="time" class="form-control"  placeholder="Select Exam Time">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-username">
+                                        Exam Name <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+                                        <input asp-for="ExaxmName" type="text" class="form-control" placeholder="Write Exam Name">
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-skill">
+                                        Exaam Type <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+
+                                        <select id="ExamtypeId" name="ExamtypeId" asp-for="ExamtypeId" class="form-control" required>
+                                            <option value="" disabled selected>Select a Exam Type</option>
+
+                                            @foreach (var typeexam in ViewBag.ExamtypeId)
+                                            {
+                                                <option value="@typeexam.Value">@typeexam.Text</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-skill">
+                                        Course <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+
+                                        <select id="CourseId" name="CourseId" asp-for="CourseId" class="form-control" required>
+                                            <option value="" disabled selected>Select a Course</option>
+                                            @foreach (var course in ViewBag.CourseId)
+                                            {
+                                                <option value="@course.Value">@course.Text</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-skill">
+                                        Batch <span class="text-danger">*</span>
+                                    </label>
+                                    <div class="col-lg-6">
+
+                                        <select id="BatchId" name="BatchId" asp-for="BatchId" class="form-control" required>
+                                            <option value="" disabled selected>Select a Batch</option>
+                                            @foreach (var course in ViewBag.BatchId)
+                                            {
+                                                <option value="@course.Value">@course.Text</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="form-group row">
+                                    <div class="col-lg-8 ml-auto">
+                                        <input value="Submit" type="submit" class="btn btn-primary">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #/ container -->
+</div>

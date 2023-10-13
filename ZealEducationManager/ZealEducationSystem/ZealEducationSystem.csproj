@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Frontend\fonts\WEB BASED RESULT PUBLICATION SYSTEM FOR EDUCATION BOARDS.pdf" />
+    <None Include="wwwroot\Frontend\icon-fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\Frontend\icon-fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\Frontend\js\bootstrap.min.js" />
+    <None Include="wwwroot\Frontend\js\circle-progress.min.js" />
+    <None Include="wwwroot\Frontend\js\jquery-3.2.1.min.js" />
+    <None Include="wwwroot\Frontend\js\main.js" />
+    <None Include="wwwroot\Frontend\js\map.js" />
+    <None Include="wwwroot\Frontend\js\mixitup.min.js" />
+    <None Include="wwwroot\Frontend\js\owl.carousel.min.js" />
+    <None Include="wwwroot\js\site.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\candidateimage\" />
+    <Folder Include="wwwroot\coursethumbnail\" />
+  </ItemGroup>
+
+</Project>

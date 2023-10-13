@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Course>
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row mx-0 justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center position-relative mb-5">
+                    <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Our Courses</h6>
+                    <h1 class="display-4">Checkout New Releases Of Our Courses</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var temp in Model)
+            {
+
+                <div class="container">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="~/@temp.CourseThumbnail" alt="Card image cap">
+                        <div class="card-body">
+                            <h1 class="card-title">Course Name: @temp.CourseName</h1>
+                            <h5 class="card-title">Code:@temp.CourseCode</h5>
+                            <h5 class="card-title">Fees: @temp.CourseFees</h5>
+                            <p class="card-title">@temp.CourseDescription</p>
+                            <button class="btn btn-Success">
+                                <a class="text-light" asp-controller="User" asp-action="Enquiry" >Ask Any Enquiry</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            }
+
+           
+            
+         
+        </div>
+    </div>
+</div>

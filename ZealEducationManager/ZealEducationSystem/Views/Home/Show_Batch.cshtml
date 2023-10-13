@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "Show Batch";
+}
+@model IEnumerable<Batchess>
+<div class="content-body">
+
+    <div class="row page-titles mx-0">
+        <div class="col p-md-0">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Dashboard</a></li>
+                <li class="breadcrumb-item active"><a href="javascript:void(0)">Home</a></li>
+            </ol>
+        </div>
+    </div>
+    <!-- row -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Data Table</h4>
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered zero-configuration">
+                                <thead>
+                                    <tr>
+                                        <th>Batch ID</th>
+                                        <th>Batch Code</th>
+                                        <th>Batch Time</th>
+                                        <th>Batch Days</th>
+                                        <th>Batch Start Date</th>
+                                        <th>Batch Duration</th>
+                                        <th>Course Name</th>
+                                        <th>Faculty Name</th>
+                                        <th>Delete</th>
+                                        <th>Edit</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+
+                                    @foreach (var temp in Model)
+                                    {
+                                        <tr>
+                                            <td>@temp.BatchId</td>
+                                            <td>@temp.BatchCode</td>
+                                            <td>@temp.BatchTime</td>
+                                            <td>@temp.BatchDays</td>
+                                            <td>@temp.BatchStartDate</td>
+                                            <td>@temp.BatchDuration</td>
+                                            <td>@temp.Course?.CourseName</td>
+                                            <td>@temp.Faculty?.FirstName @temp.Faculty?.LastName</td>
+                                            <td>
+                                                <button class="btn btn-primary">
+                                                    <a class="text-light" asp-controller="Home" asp-action="BatchDelete" asp-route-id="@temp.BatchId">Delete</a>
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <form method="post" asp-controller="Home" asp-action="BatchEdit" asp-route-id="@temp.BatchId">
+                                                    <button type="submit" class="btn btn-primary text-light">Update</button>
+                                                </form>
+                                            </td>
+
+                                        </tr>
+
+                                    }
+
+
+                                    
+                                   
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th>Batch ID</th>
+                                        <th>Batch Code</th>
+                                        <th>Batch Time</th>
+                                        <th>Batch Days</th>
+                                        <th>Batch Start Date</th>
+                                        <th>Batch Duration</th>
+                                        <th>Course Name</th>
+                                        <th>Faculty Name</th>
+                                        <th>Delete</th>
+                                        <th>Edit</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #/ container -->
+</div>
