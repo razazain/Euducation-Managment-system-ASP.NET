@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "amH/4j79DL9xw49FcNNybTJuqTzfUN3X1mB78DPM952hU1pyd7LQk0RrWTI3MKTxO/RZP8U+LG/iu+p7pvJjbg==",
+  "dgSpecHash": "e1xGiZPdEgZKU1bRUCNxf2aMxaqAv6dhrLt+skJw3tCKpNoAk3j0uzgx1+b2QI6A0Dqvi76pu9kexKC896fpZA==",
   "success": true,
-  "projectFilePath": "G:\\E Project 3rd Semseter\\Final_Final_E Project\\ZealEducationManager\\ZealEducationSystem\\ZealEducationSystem.csproj",
+  "projectFilePath": "G:\\aptech\\ALL EPROJECT\\ZealEducationManager\\ZealEducationManager\\ZealEducationSystem\\ZealEducationSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marhaba\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Marhaba\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

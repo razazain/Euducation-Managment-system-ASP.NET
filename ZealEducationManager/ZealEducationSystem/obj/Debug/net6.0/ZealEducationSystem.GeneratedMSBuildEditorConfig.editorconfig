@@ -9,289 +9,289 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ZealEducationSystem
 build_property.RootNamespace = ZealEducationSystem
-build_property.ProjectDir = G:\E Project 3rd Semseter\Final_Final_E Project\ZealEducationManager\ZealEducationSystem\
+build_property.ProjectDir = G:\aptech\ALL EPROJECT\ZealEducationManager\ZealEducationManager\ZealEducationSystem\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = G:\E Project 3rd Semseter\Final_Final_E Project\ZealEducationManager\ZealEducationSystem
+build_property.MSBuildProjectDirectory = G:\aptech\ALL EPROJECT\ZealEducationManager\ZealEducationManager\ZealEducationSystem
 build_property._RazorSourceGeneratorDebug = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Add_Batch.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Add_Batch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXEFkZF9CYXRjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Add_Course.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Add_Course.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXEFkZF9Db3Vyc2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Add_Exam.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Add_Exam.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXEFkZF9FeGFtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Add_ExamMark.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Add_ExamMark.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXEFkZF9FeGFtTWFyay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Add_Student.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Add_Student.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXEFkZF9TdHVkZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/BatchEdit.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/BatchEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXEJhdGNoRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/CandidateEdit.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/CandidateEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXENhbmRpZGF0ZUVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/CourseEdit.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/CourseEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXENvdXJzZUVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/ExamEdit.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/ExamEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXEV4YW1FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/ExamMarkEdit.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/ExamMarkEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXEV4YW1NYXJrRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Index.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Profile.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXFByb2ZpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/ProfileEdit.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/ProfileEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXFByb2ZpbGVFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Show_Batch.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Show_Batch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXFNob3dfQmF0Y2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Show_Course.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Show_Course.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXFNob3dfQ291cnNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Show_Exam.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Show_Exam.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXFNob3dfRXhhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Show_ExamMark.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Show_ExamMark.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXFNob3dfRXhhbU1hcmsuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Show_Student.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Show_Student.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXFNob3dfU3R1ZGVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Signup.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Facultypanel/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eXBhbmVsXFNpZ251cC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Add_Batch.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Add_Batch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRfQmF0Y2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Add_Course.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Add_Course.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRfQ291cnNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Add_Exam.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Add_Exam.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRfRXhhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Add_ExamMark.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Add_ExamMark.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRfRXhhbU1hcmsuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Add_Examtype.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Add_Examtype.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRfRXhhbXR5cGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Add_Faculty.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Add_Faculty.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRfRmFjdWx0eS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Add_Fee.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Add_Fee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRfRmVlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Add_Student.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Add_Student.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRfU3R1ZGVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/BatchEdit.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/BatchEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCYXRjaEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/CandidateEdit.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/CandidateEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYW5kaWRhdGVFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/CourseEdit.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/CourseEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb3Vyc2VFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Edit.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/ExamEdit.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/ExamEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFeGFtRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/ExamMarkEdit.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/ExamMarkEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFeGFtTWFya0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/examtypeedit.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/examtypeedit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxleGFtdHlwZWVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/FeesEdit.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/FeesEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGZWVzRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Index.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Login.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Privacy.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Profile.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/ProfileEdit.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/ProfileEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Show_Batch.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Show_Batch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93X0JhdGNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Show_Course.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Show_Course.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93X0NvdXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Show_Exam.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Show_Exam.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93X0V4YW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Show_ExamMark.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Show_ExamMark.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93X0V4YW1NYXJrLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Show_Examtype.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Show_Examtype.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93X0V4YW10eXBlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Show_Faculty.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Show_Faculty.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93X0ZhY3VsdHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Show_Fee.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Show_Fee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93X0ZlZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Show_Student.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Show_Student.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93X1N0dWRlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Home/Signup.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Home/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWdudXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Shared/Error.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Shared/_FacultyHeader.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Shared/_FacultyHeader.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9GYWN1bHR5SGVhZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Shared/_FacultySidebar.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Shared/_FacultySidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9GYWN1bHR5U2lkZWJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Shared/_Header.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Shared/_Navheader.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Shared/_Navheader.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZoZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Shared/_Sidebar.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Shared/_Sidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Shared/_userfooter.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Shared/_userfooter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF91c2VyZm9vdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Shared/_UserHeader.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Shared/_UserHeader.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VySGVhZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/User/About.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/User/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/User/Course.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/User/Course.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDb3Vyc2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/User/CourseDetails.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/User/CourseDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDb3Vyc2VEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/User/Enquiry.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/User/Enquiry.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFbnF1aXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/User/Index.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/User/Login.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/User/Profile.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/User/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/User/ProfileEdit.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/User/ProfileEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/User/Signup.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/User/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWdudXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/_ViewImports.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/_ViewStart.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/E Project 3rd Semseter/Final_Final_E Project/ZealEducationManager/ZealEducationSystem/Views/Shared/_Layout.cshtml]
+[G:/aptech/ALL EPROJECT/ZealEducationManager/ZealEducationManager/ZealEducationSystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qvfew4v0te

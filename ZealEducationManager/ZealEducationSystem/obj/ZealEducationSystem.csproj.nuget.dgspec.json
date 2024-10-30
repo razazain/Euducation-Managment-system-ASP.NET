@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\E Project 3rd Semseter\\Final_Final_E Project\\ZealEducationManager\\ZealEducationSystem\\ZealEducationSystem.csproj": {}
+    "G:\\aptech\\ALL EPROJECT\\ZealEducationManager\\ZealEducationManager\\ZealEducationSystem\\ZealEducationSystem.csproj": {}
   },
   "projects": {
-    "G:\\E Project 3rd Semseter\\Final_Final_E Project\\ZealEducationManager\\ZealEducationSystem\\ZealEducationSystem.csproj": {
+    "G:\\aptech\\ALL EPROJECT\\ZealEducationManager\\ZealEducationManager\\ZealEducationSystem\\ZealEducationSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\E Project 3rd Semseter\\Final_Final_E Project\\ZealEducationManager\\ZealEducationSystem\\ZealEducationSystem.csproj",
+        "projectUniqueName": "G:\\aptech\\ALL EPROJECT\\ZealEducationManager\\ZealEducationManager\\ZealEducationSystem\\ZealEducationSystem.csproj",
         "projectName": "ZealEducationSystem",
-        "projectPath": "G:\\E Project 3rd Semseter\\Final_Final_E Project\\ZealEducationManager\\ZealEducationSystem\\ZealEducationSystem.csproj",
+        "projectPath": "G:\\aptech\\ALL EPROJECT\\ZealEducationManager\\ZealEducationManager\\ZealEducationSystem\\ZealEducationSystem.csproj",
         "packagesPath": "C:\\Users\\Marhaba\\.nuget\\packages\\",
-        "outputPath": "G:\\E Project 3rd Semseter\\Final_Final_E Project\\ZealEducationManager\\ZealEducationSystem\\obj\\",
+        "outputPath": "G:\\aptech\\ALL EPROJECT\\ZealEducationManager\\ZealEducationManager\\ZealEducationSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marhaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
